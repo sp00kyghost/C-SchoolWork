@@ -1,0 +1,28 @@
+# Project: Floor2
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = Floor2.o
+LINKOBJ  = Floor2.o
+LIBS     = -L"X:/DEV-C++/Dev-Cpp/MinGW64/lib" -L"X:/DEV-C++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"X:/DEV-C++/Dev-Cpp/MinGW64/include" -I"X:/DEV-C++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"X:/DEV-C++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"X:/DEV-C++/Dev-Cpp/MinGW64/include" -I"X:/DEV-C++/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"X:/DEV-C++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"X:/DEV-C++/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Floor2.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Floor2.o: Floor2.cpp
+	$(CPP) -c Floor2.cpp -o Floor2.o $(CXXFLAGS)
