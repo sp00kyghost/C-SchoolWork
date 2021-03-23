@@ -1,0 +1,11 @@
+0 degrees Celsius is equal to 32 degrees Farenheit.
+10 degrees Celsius is equal to 50 degrees Farenheit.
+20 degrees Celsius is equal to 68 degrees Farenheit.
+30 degrees Celsius is equal to 86 degrees Farenheit.
+40 degrees Celsius is equal to 104 degrees Farenheit.
+50 degrees Celsius is equal to 122 degrees Farenheit.
+60 degrees Celsius is equal to 140 degrees Farenheit.
+70 degrees Celsius is equal to 158 degrees Farenheit.
+80 degrees Celsius is equal to 176 degrees Farenheit.
+90 degrees Celsius is equal to 194 degrees Farenheit.
+100 degrees Celsius is equal to 212 degrees Farenheit.

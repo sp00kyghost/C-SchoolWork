@@ -1,0 +1,5 @@
+Einstein Albert 80 95 85.5 80 95
+Franklin Ben 70 75.5 80 82 90
+Edison Tom 70 80 75.5 60 40
+Tesla Nick 75 75.5 80 90 80
+Dijkstra Ed 92 80 70.5 60 85
